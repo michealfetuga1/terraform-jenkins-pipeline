@@ -4,6 +4,6 @@ terraform {
     key            = "demo.tfstate"
     region         = "us-west-2"
     profile        = "default"
-    dynamodb_table = "tf-state-file"
+    dynamodb_table = "Mikedb"
   }
 }
