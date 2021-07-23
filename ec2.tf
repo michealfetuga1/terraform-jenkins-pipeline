@@ -1,8 +1,8 @@
-resource "aws_instance" "Terraform-jenkins-test" {
+resource "aws_instance" "jjtech" {
   ami           = "ami-0dc8f589abe99f538"
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Terraform-jenkins-test"
+    Name = "jenkins-terraform"
   }
 }
